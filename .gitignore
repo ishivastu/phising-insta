@@ -1,0 +1,52 @@
+# =========================
+# Environment / Secrets
+# =========================
+.env
+backend/.env
+frontend/.env
+
+# =========================
+# Node / Bun / npm
+# =========================
+node_modules/
+**/node_modules/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+bun.lockb
+package-lock.json
+pnpm-lock.yaml
+
+# =========================
+# Build outputs
+# =========================
+dist/
+build/
+frontend/dist/
+frontend/build/
+backend/dist/
+
+# =========================
+# Docker
+# =========================
+*.log
+.dockerignore
+
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# MongoDB local data (if any)
+# =========================
+data/
+mongo-data/
