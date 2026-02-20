@@ -24,8 +24,6 @@ form.addEventListener("submit", async (e) => {
 
     const data = await res.json();
     console.log("Saved:", data);
-
-    alert("Data sent successfully!");
     form.reset();
   } catch (err) {
     console.error("Request failed:", err);
